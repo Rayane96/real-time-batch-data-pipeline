@@ -3,7 +3,7 @@
 ## Overview
 Climate change is a major global issue, and social media platforms contain large volumes of public discussion about climate-related topics. These discussions provide valuable insight into public sentiment, which is important because public opinion can influence policy decisions, awareness, and how communities respond to climate events. However, analysing this data is challenging due to its large scale, unstructured and informal language, and the need for fast processing in real-time settings.
 
-This project develops a prototype Big Data system to analyse climate-related sentiment from Reddit using both batch processing and real-time streaming approaches.
+This project develops an end-to-end prototype Big Data system to analyse climate-related sentiment from Reddit using both batch processing and real-time streaming approaches.
 
 ## Batch Processing Workflow
 In the batch workflow, Reddit posts were collected using the Reddit API and processed with Apache Spark for cleaning, normalisation, and splitting long posts into smaller text segments. Sentiment analysis was performed using two transformer-based models: Twitter-RoBERTa-base-sentiment as the primary model, and FinBERT as an additional experimental comparison.
