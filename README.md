@@ -21,5 +21,6 @@ This system represents an initial prototype rather than a complete production so
 - Python  
 - Apache Spark  
 - Spark Structured Streaming  
-- Transformer-based NLP models  
+- Transformer-based NLP models (RoBERTa & FinBERT )
+- Reddit API 
 - VADER sentiment analysis
